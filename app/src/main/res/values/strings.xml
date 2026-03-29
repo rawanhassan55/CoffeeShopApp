@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Coffee Shop App</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="coffee_shop_logo">coffee shop logo</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="welcome_to_coffee_home">Welcome to Coffee Home</string>
+    <string name="forget_password">Forget Password?</string>
+    <string name="sign_in">Sign in</string>
+    <string name="don_t_have_an_account_sign_up">Don\'t have an account? sign up</string>
+    <string name="already_have_an_account_sign_in">Already have an account? Sign in</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="user_name">User name</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="sign_up">Sign up</string>
+    <string name="verify_your_email">Verify your email</string>
+    <string name="please_check_your_inbox_and_click_the_verification_link_to_activate_your_account">Please check your inbox and click the verification link to activate your account.</string>
+    <string name="already_verified">Already verified?</string>
+    <string name="continue_to_home"><u>Continue to Home</u></string>
+    <string name="resend_verification_email"><u>Resend verification email</u></string>
+    <string name="didn_t_get_the_email">Didn\'t get the email?</string>
+    <string name="verify_email_icon">Verify Email Icon</string>
+    <string name="welcome">Welcome to our cozy coffee corner, where every cup is a delightful for you.</string>
+    <string name="fall_in_love_with_ncoffee_in_blissful_ndelight">Fall in Love with\nCoffee in Blissful\nDelight!</string>
+    <string name="get_started">Get Started</string>
+    <string name="on_boarding_coffee_image">on Boarding Coffee Image</string>
+    <string name="forget_pass_message">  We will send you a link to reset your password. Please enter your email below.</string>
+    <string name="continuee">Continue</string>
+
+
+    <!--    format-->
+    <string name="rating_format">⭐ %1$.1f</string>
+    <string name="price_format">%1$.2f EGP</string>
+    <string name="quantity_format">%d</string>
+    <string name="subtotal_format">%1$.2f EGP</string>
+    <string name="proceed_to_checkout">Proceed to Checkout</string>
+    <string name="checkout">Checkout</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="logout">Logout</string>
+    <string name="edit">Edit</string>
+    <string name="back">Back</string>
+    <string name="save">Save</string>
+    <string name="read_more">Read more →</string>
+    <string name="name">Name</string>
+    <string name="guest">Guest</string>
+
+
+</resources>

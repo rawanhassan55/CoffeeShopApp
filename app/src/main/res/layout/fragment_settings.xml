@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    tools:context=".ui.profile.SettingsFragment">
+
+    <ImageView
+        android:id="@+id/ivProfile"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/person_ic"
+        android:background="@drawable/circle_bg"
+        android:backgroundTint="@color/very_light_gray"
+        android:clipToOutline="true"/>
+
+    <TextView
+        android:id="@+id/nameTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/emailTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name1012@.com"
+        android:textSize="16sp"
+        android:textColor="@color/dark_gray"
+        android:layout_marginTop="16dp"
+        />
+
+    <!-- Buttons -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/edit_btn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"
+        android:backgroundTint="@color/primary_color"
+        android:text="@string/edit"
+        android:textSize="16sp"
+        android:letterSpacing="0.02" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/log_out_btn"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        app:strokeColor="@color/primary_color"
+        app:strokeWidth="0.5dp"
+        android:backgroundTint="@color/very_light_gray"
+        android:text="@string/logout"
+        android:textColor="@color/red"
+        android:textSize="16sp"
+        app:icon="@drawable/logout_ic"
+        app:iconTint="@color/red"
+        app:iconGravity="end"
+        app:iconPadding="2dp"
+        android:letterSpacing="0.02" />
+
+
+
+</LinearLayout>

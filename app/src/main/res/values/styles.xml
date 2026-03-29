@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<!--text input layout style-->
+    <style name="CoffeeTextInputStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <item name="boxBackgroundMode">outline</item>
+        <item name="boxStrokeColor">@color/dark_brown</item>
+
+
+        <item name="boxCornerRadiusTopStart">20dp</item>
+        <item name="boxCornerRadiusTopEnd">20dp</item>
+        <item name="boxCornerRadiusBottomStart">20dp</item>
+        <item name="boxCornerRadiusBottomEnd">20dp</item>
+
+        <item name="startIconTint">@color/dark_brown</item>
+
+    </style>
+
+<!--    edit text-->
+    <style name="CoffeeTextInputEditStyle" parent="Widget.MaterialComponents.TextInputEditText.OutlinedBox">
+        <item name="android:paddingStart">40dp</item>
+        <item name="android:paddingEnd">40dp</item>
+        <item name="android:textColor">@color/dark_brown</item>
+        <item name="android:textColorHint">#7A4F4A</item>
+    </style>
+
+<!--    circle shape -->
+    <style name="CircleImage">
+        <item name="cornerSize">50%</item>
+    </style>
+
+<!--card view for details-->
+
+    <style name="TopRoundedCard" parent="Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/TopRoundedShape</item>
+    </style>
+
+    <style name="TopRoundedShape">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">28dp</item>
+        <item name="cornerSizeTopRight">28dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+
+    <style name="TopRoundCardProfile">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">32dp</item>
+        <item name="cornerSizeTopRight">32dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
+</resources>

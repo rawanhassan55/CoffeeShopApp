@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="yellow">#F9C71E</color>
+    <color name="transpate_color">#80000000</color>
+    <color name="soft_cream">#EFE8DD</color>
+    <color name="green">#13B87B</color>
+    <color name="red">#F63F32</color>
+
+    ic_help_circle
+
+<!--brown-->
+    <color name="light_brown">#F9F2ED</color>
+    <color name="dark_brown">#4E342E</color>
+    <color name="brown">#8B5A2B</color>
+    <color name="primary_color">#C67C4D</color>
+    <color name="beige"> #FBE7C4</color>
+
+
+<!--    gray-->
+    <color name="muted_gray">#DDDDDD</color>
+    <color name="gray">#888888</color>
+    <color name="dark_gray">#4C4C4C</color>
+    <color name="very_light_gray">#F6F6F6</color>
+
+</resources>
+
+
+

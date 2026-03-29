@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutEmptyCart"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:visibility="gone"
+    android:padding="32dp">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieEmptyCart"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        app:lottie_rawRes="@raw/cart_empty"
+        app:lottie_autoPlay="false"
+        app:lottie_loop="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your cart is empty"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/dark_brown"
+        android:layout_marginTop="12dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Looks like you haven't ordered your coffee yet ☕"
+        android:textSize="14sp"
+        android:textColor="@color/dark_brown"
+        android:alpha="0.7"
+        android:gravity="center"
+        android:layout_marginTop="6dp"/>
+
+    <Button
+        android:id="@+id/btnBrowseCoffee"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Browse Coffee"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/primary_color"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>

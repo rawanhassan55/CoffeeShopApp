@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#010001">
+
+    <!-- TOP IMAGE-->
+    <ImageView
+        android:id="@+id/coffeeImage"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:contentDescription="@string/on_boarding_coffee_image"
+        android:scaleType="centerCrop"
+    android:src="@drawable/image_background" />
+
+    <!-- BLACK AREA -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:paddingBottom="24dp"
+        android:background="#000000">
+
+        <!-- Title raised upward -->
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fall_in_love_with_ncoffee_in_blissful_ndelight"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:lineSpacingExtra="10dp"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            />
+
+        <!-- Description -->
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/welcome"
+            android:textColor="#DDDDDD"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:paddingBottom="30dp" />
+
+        <!-- Button -->
+        <Button
+            android:id="@+id/startBtn"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="@string/get_started"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:backgroundTint="@color/primary_color" />
+
+    </LinearLayout>
+
+</LinearLayout>
